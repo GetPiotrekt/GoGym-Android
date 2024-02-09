@@ -1,0 +1,48 @@
+<!-- Plik: ekran_startowy.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GoGYM"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/rozpocznijTreningButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROZPOCZNIJ TRENING"
+        android:onClick="pRozpocznijTrening"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/historiaTreningowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HISTORIA TRENINGÓW"
+        android:onClick="pHistoriaTreningow"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/kalkulatorBMRButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KALKULATOR BMR"
+        android:onClick="pKalkulatorBMR"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<!-- Plik: rozpocznij_trening.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GoGYM"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/lawkaPlaskaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ŁAWKA PŁASKA"
+        android:onClick="pLawkaPlaska"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/martwyCiagButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MARTWY CIĄG"
+        android:onClick="pMartwyCiag"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/podciaganieButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PODCIĄGANIE"
+        android:onClick="pPodciaganie"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/podsumowanieButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KONIEC TRENINGU"
+        android:onClick="pPodsumowanie"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

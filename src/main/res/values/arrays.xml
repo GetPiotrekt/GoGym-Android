@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="activity_levels">
+        <item>Brak aktywności fizycznej</item>
+        <item>Niska aktywność (ćwiczenia 1-3 razy w tygodniu)</item>
+        <item>Średnia aktywność (ćwiczenia 3-5 razy w tygodniu)</item>
+        <item>Wysoka aktywność (ćwiczenia codziennie)</item>
+        <item>Bardzo wysoka aktywność (ćwiczenia kilka razy dziennie)</item>
+    </string-array>
+</resources>
